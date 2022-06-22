@@ -1,0 +1,40 @@
+body {
+    background: url('assets/images/bg-image.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    font-size: 20px;
+}
+
+/* LIST */
+
+ol>li {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(245, 245, 199);
+}
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    text-align: center;
+    color: #ffff;
+    background-color: #484747;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
