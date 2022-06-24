@@ -1,5 +1,35 @@
+/* FOOTER */
 footer {
+    width: 100%;
+    text-align: center;
+    color: #ffff;
+    background-color: #484747;
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.box {
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
 }
