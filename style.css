@@ -1,8 +1,13 @@
-body {
-    background: url('assets/images/bg-image.jpg') center center no-repeat fixed;
-    background-size: cover;
+.hero-image {
+    background: url('assets/images/hero-image2.jpg') center center no-repeat;
+    height: 100vh;
+    background-size: con;
 }
 
+.bg-color {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
 /* NAVBAR */
 
@@ -12,20 +17,34 @@ body {
 
 /* LIST */
 
+ol {
+    text-align: center;
+    list-style-position: inside;
+    padding: inherit;
+    display: inline-block;
+}
+
 ol>li {
     padding: 10px;
     font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
 
+}
+
+a:hover {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 a {
     color: #fff;
     text-decoration: none;
+    font-weight: 500;
 }
 
-a:hover {
-    color: rgb(245, 245, 199);
-}
 
 
 /* FOOTER */
@@ -38,3 +57,5 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+@media only screen and (min-width: 800px) {}
