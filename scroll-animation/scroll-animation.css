@@ -1,14 +1,3 @@
-/* FOOTER */
-footer {
-    width: 100%;
-    text-align: center;
-    color: #ffff;
-    background-color: #484747;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -32,4 +21,14 @@ footer {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-200%);
+}
+
+.box.show {
+    transform: translateX(0);
 }
