@@ -1,11 +1,9 @@
 .hero-image {
     background: url('assets/images/hero-image2.jpg') center center no-repeat;
-    height: 100vh;
-    background-size: con;
+    background-size: cover;
 }
 
 .bg-color {
-    height: 100vh;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -53,9 +51,21 @@ footer {
     text-align: center;
     color: #ffff;
     background-color: #484747;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
-@media only screen and (min-width: 800px) {}
+@media only screen and (min-width: 400px) {
+
+    .hero-image {
+        height: 100vh;
+    }
+
+    .bg-color {
+        height: 100vh;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
