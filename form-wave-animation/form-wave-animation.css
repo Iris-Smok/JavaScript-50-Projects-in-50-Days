@@ -79,7 +79,29 @@
 .control-form input:focus,
 .control-form input:valid {
     outline: 0;
+    border-bottom-color: lightblue;
 }
+
+.control-form label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.control-form label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.control-form input:focus+label span,
+.control-form input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+}
+
+
 
 
 /* FOOTER */
@@ -88,7 +110,4 @@ footer {
     text-align: center;
     color: #ffff;
     background-color: #484747;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
