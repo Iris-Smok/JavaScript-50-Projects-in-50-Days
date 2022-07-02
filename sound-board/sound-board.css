@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrap {
+    background-color: rgb(161, 100, 223);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btnn {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+.btnn:hover {
+    opacity: 0.9;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    text-align: center;
+    color: #ffff;
+    background-color: #484747;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
